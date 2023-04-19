@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+  background: #f1f1f1;
+  background-color: white;
+}
+
+.header {
+  font-family: "Bitter", serif;
+  font-weight: 1;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 45px;
+  padding: 100px;
+}
+
+.header p {
+  padding: 1px;
+  font-size: 20px;
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: normal;
+  color: rgb(58, 58, 58);
+}
+
+li {
+  list-style: none;
+}
+
+/* #menu1 ul li {
+    font-family: 'Noto Sans KR', sans-serif;
+    float: left;
+    width: 5%;        <!--li 항목이 모두 4개 이므로 4등분을 위한 사이즈 정의 -->
+    height: 10px;      <!--float 해제를 위한 세로 사이즈 지정-->
+    line-height: 50px;  <!--텍스트 중앙 정렬(위/아래에 대한)-->
+    text-align: center;
+    background-color: white;
+    position: absolute;
+    left: 10%;
+    
+} */
+
+a {
+  text-decoration: none;
+  color: rgb(122, 121, 121);
+}
+
+#menu1 {
+  font-family: "Noto Sans KR", sans-serif;
+  text-align: center;
+  list-style: none;
+  position: relative;
+  top: 0px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+#menu2 {
+  font-family: "Noto Sans KR", sans-serif;
+}
