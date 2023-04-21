@@ -1,16 +1,30 @@
 * {
   box-sizing: border-box;
 }
+
+#main-title {
+  font-family: 'Bitter', serif;
+  font-weight: lighter;
+}
+header {
+  display: inline-flex;
+  align-items: center;
+}
 a {
   text-decoration: none;
   color: rgb(122, 121, 121);
 }
-
-ul li {
+/*
+li {
     display: inline-block;
-    width: 20%;
+    width: 100%;
     height: 10px;
 }
+
+ul {
+  padding: 0;
+}
+
 
 #menu1 {
   font-family: "Noto Sans KR", sans-serif;
@@ -21,7 +35,7 @@ ul li {
 #menu2 {
   font-family: "Noto Sans KR", sans-serif;
 }
-
+*/
 main {
   border: 1px red solid;
 }
