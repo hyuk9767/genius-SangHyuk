@@ -4,7 +4,7 @@
 
 header {
   margin:0 450px;
-  display: -webkit-flex
+  /* display: -webkit-flex */
 }
 
 #main-title {
@@ -16,28 +16,39 @@ header {
 }
 a {
   text-decoration: none;
-  color: rgb(122, 121, 121);
-  margin: 25px;
+  color: rgb(14, 13, 13);
+  margin: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: #ccc;
+  margin: 0 10px; /* 왼쪽과 오른쪽 간격을 10px씩 띄움 */
 }
 
 
 #menu-1 {
   font-family: "Noto Sans KR", sans-serif;
-  /* position: relative;
-  width: 500px; */
-
 }
 
 #menu-2 {
   font-family: "Noto Sans KR", sans-serif;
-  text-align: right;
-  /* position: relative;
-  left: 400px; */
-  color: rgb(122, 121, 121);
+  color: rgb(12, 12, 12);
 }
 
 main {
   border: 1px red solid;
+  margin-top: 30px;
+}
+
+#small-title {
+  text-align: center;
 }
 
 img {
